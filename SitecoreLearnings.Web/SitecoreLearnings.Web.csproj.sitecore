@@ -1,0 +1,8 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="sc82.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <File Include="sitecore\Shell\client\YourApps\ViewSitecoreJobs\Renderings\SitecoreJobs.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="core">{3CD95811-5B88-40D0-B8E2-661EB12BBC9C}</Item>
+  </File>
+</Project>

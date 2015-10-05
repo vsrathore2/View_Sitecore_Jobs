@@ -41,3 +41,9 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.config
+*.disabled
+SitecoreLearnings.Web/App_Config/Include/EventHandler.config.example
+*.example
+SitecoreLearnings.Web/bin/Sitecore.Client.dll
+SitecoreLearnings.Web/obj/Debug/AspnetCompileMerge/Source/bin/Sitecore.Kernel.dll

@@ -1,0 +1,1 @@
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\obj\Debug\SitecoreLearnings.Web.csprojResolveAssemblyReference.cache

@@ -1,0 +1,59 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+    var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+    rendering.Class = "sc-listcontrol sc-SitecoreJobs";
+    rendering.Requires.Script("client", "SitecoreJobs.js");
+
+    //These are our properties
+    rendering.GetString("jobitems", "jobitems");
+    rendering.GetString("text", "text");
+    rendering.GetString("nojobstext", "nojobstext");
+
+    var htmlAttributes = rendering.HtmlAttributes;
+}
+<div @htmlAttributes>
+    <div data-bind="visible:jobitems().length<=0">
+        <span data-bind="text:nojobstext"></span>
+    </div>
+    <div data-bind="visible:jobitems().length>0">
+        <table class=" sc-table sc-table-header table">
+            <thead>
+                <tr>
+                    <th class="sc-table-head">Job Name</th>
+                    <th class="sc-table-head">Job Category</th>
+                    <th class="sc-table-head">Job Status</th>
+                    <th class="sc-table-head">Job Queue Time</th>
+                </tr>
+            </thead>
+        </table>
+        <div class="sc-listcontrol-body">
+            <table class="sc-table table">
+                <tbody data-bind="foreach: jobitems">
+                    <tr>
+                        <td class="ventilate">
+                            <span data-bind="text:JobName"></span>
+                        </td>
+                        <td class="ventilate">
+                            <span data-bind="text:JobCategory"></span>
+                        </td>
+                        <td class="ventilate">
+                            <strong data-bind="if:JobStatus=='Finished'">
+                                <span data-bind="text:JobStatus,style:{color:'#08B747'}"></span>
+                            </strong>
+                            <strong data-bind="if:JobStatus=='Running' || JobStatus=='Queued'">
+                                <span data-bind="text:JobStatus,style:{color:'#00000'}"></span>
+                            </strong>
+
+                        </td>
+                        <td class="ventilate">
+                            <span data-bind="text:JobQueueTime"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
