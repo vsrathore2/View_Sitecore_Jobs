@@ -49,3 +49,11 @@ SitecoreLearnings.Web/bin/Sitecore.Client.dll
 SitecoreLearnings.Web/obj/Debug/AspnetCompileMerge/Source/bin/Sitecore.Kernel.dll
 SitecoreLearnings.Web/obj/Debug/SitecoreLearnings.Webl.pdb
 SitecoreLearnings.Web/obj/Debug/SitecoreLearnings.Webl.dll
+SitecoreLearnings.Web/obj/Debug/SitecoreLearnings.Web.csproj.FileListAbsolute.txt
+SitecoreLearnings.Web/bin/Sitecore.Kernel.dll
+*.pdb
+SitecoreLearnings.Web/bin/Sitecore.Mvc.dll
+*.cache
+SitecoreLearnings.v12.suo
+SitecoreLearnings.Web/obj/Debug/SitecoreLearnings.Web.csproj.FileListAbsolute.txt
+*.suo

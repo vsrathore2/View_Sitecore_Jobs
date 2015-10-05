@@ -1,1 +1,8 @@
 C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\obj\Debug\SitecoreLearnings.Web.csprojResolveAssemblyReference.cache
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\bin\SitecoreLearnings.Webl.dll
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\bin\SitecoreLearnings.Webl.pdb
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\obj\Debug\SitecoreLearnings.Webl.dll
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\obj\Debug\SitecoreLearnings.Webl.pdb
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\bin\Sitecore.Client.dll
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\bin\Sitecore.Kernel.dll
+C:\Projects\SitecoreLearnings\SitecoreLearnings.Web\bin\Sitecore.Mvc.dll
