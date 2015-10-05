@@ -57,3 +57,5 @@ SitecoreLearnings.Web/bin/Sitecore.Mvc.dll
 SitecoreLearnings.v12.suo
 SitecoreLearnings.Web/obj/Debug/SitecoreLearnings.Web.csproj.FileListAbsolute.txt
 *.suo
+SitecoreLearnings.Web/obj/Debug/SitecoreLearnings.Web.csprojResolveAssemblyReference.cache
+*.cache
